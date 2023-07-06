@@ -8,7 +8,7 @@ st.title("Analisando renda dos responsáveis pelos domícilios por gênero de Na
 
 st.subheader("A Streamlit web app by Matheus Silva")
 
-analise02 = pd.read_excel('terceira_unidade/data/analise02.csv')
+analise02 = pd.read_csv('terceira_unidade/data/analise02.csv')
 
 lst = [27, 25, 22, 18, 14, 5, 4, 30, 26, 21, 19, 11, 10, 9, 8, 7, 3, 36, 35, 33, 32, 29, 24, 16, 15, 6, 2, 1, 0, 34, 31, 28, 23, 20, 13, 12]
 
