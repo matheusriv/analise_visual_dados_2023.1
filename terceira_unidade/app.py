@@ -23,14 +23,14 @@ st.write("Vendo só a quantidade de responsáveis, comparando homens e mulheres:
 qtd_homens_mulheres = go.Figure(
     data = [
         go.Bar(
-            name="homens",
+            name="Homens",
             x=analise02["Pessoas responsáveis masculino"],
             y=analise02["Nome_do_bairro"],
             orientation='h',
             offsetgroup=0,
         ),
         go.Bar(
-            name="mulheres",
+            name="Mulheres",
             x=analise02["Pessoas responsáveis feminino"],
             y=analise02["Nome_do_bairro"],
             orientation='h',
