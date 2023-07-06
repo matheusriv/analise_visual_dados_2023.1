@@ -10,7 +10,7 @@ st.subheader("A Streamlit web app by Matheus Silva")
 
 analise02 = pd.read_csv('terceira_unidade/data/analise02.csv')
 
-lst = [27, 25, 22, 18, 14, 5, 4, 30, 26, 21, 19, 11, 10, 9, 8, 7, 3, 36, 35, 33, 32, 29, 24, 16, 15, 6, 2, 1, 0, 34, 31, 28, 23, 20, 13, 12]
+lst1 = [12, 13, 20, 23, 28, 31, 34, 0, 1, 2, 6, 15, 16, 24, 29, 32, 33, 35, 36, 3, 7, 8, 9, 10, 11, 19, 21, 26, 30, 4, 5, 14, 18, 22, 25, 27]
 
 # colocando em ordem para eixo x
 analise02 = analise02.loc[lst1].reset_index(drop=True)
